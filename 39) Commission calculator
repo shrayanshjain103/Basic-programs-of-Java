@@ -2,14 +2,14 @@ package com.shrayansh;
 
 import java.util.Scanner;
 
-public class comission {
+public class commission {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         System.out.print("Enter the sell amount: ");
-        float comission=in.nextFloat();
-        System.out.print("Enter the rate of comission: ");
+        float commission=in.nextFloat();
+        System.out.print("Enter the rate of commission: ");
         float rate=in.nextFloat();
-        float amount=(float) ((comission*rate)/100);
-        System.out.print("The comission is: "+amount);
+        float amount=(float) ((commission*rate)/100);
+        System.out.print("The commission is: "+amount);
     }
 }
