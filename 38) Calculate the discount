@@ -1,0 +1,15 @@
+package com.shrayansh;
+
+import java.util.Scanner;
+
+public class discount {
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        System.out.print("Enter the amount of the product: ");
+        float rate=in.nextFloat();
+        System.out.print("Enter the discount percentage: ");
+        float percentage=in.nextFloat();
+        float discount=(float)(rate*percentage)/100;
+        System.out.print("The rate of product after discount: "+discount);
+    }
+}
