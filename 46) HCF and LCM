@@ -6,9 +6,14 @@ class test{
         int gcd = gcd(n2, n1 % n2);
         return gcd;
     }
+    static int lcm(int n1, int n2){
+        int lcm=(n1*n2)/gcd(n1, n2);
+        return lcm;
+    }
     public static void main(String[] args) {
         int n1=60 , n2=54;
         System.out.println("The HCF of "+ n1 +" and "+ n2+" is "+gcd(n1,n2) );
+        System.out.println("The LCM of "+n1+" and "+n2+" is "+lcm(n1,n2));
         }
     }
 
